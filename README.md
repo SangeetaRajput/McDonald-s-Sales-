@@ -1,8 +1,51 @@
-# McDonald-s-Sales-
+# McDonald-s-Sales
 
-Create an interactive and dynamic dashboard in Excel using the McDonald's sales dataset to analyze various aspects of sales performance, item popularity, customer preferences, and time-based trends. The dashboard should provide actionable insights and allow for easy data exploration.
+# Project Overview
+This project focuses on analyzing McDonald’s US sales data using Excel to create an interactive and dynamic dashboard. The primary goal is to explore key sales metrics, identify item popularity, understand customer preferences, and uncover time-based sales trends. The insights gained offer actionable recommendations to enhance business strategies and optimize operations.
 
-Questions:
+Dataset Link: Dataset
+
+# Data Cleaning Process
+&#8226; Removed duplicate records.
+
+&#8226; Handled missing values using forward fill and backward fill methods.
+
+&#8226; Standardized date and time formats to match the English US locale.
+
+&#8226; Ensured correct data types for all columns.
+
+# Data Transformation
+&#8226; Created additional fields like:
+
+&#8226; Exact Hours (based on order time)
+
+&#8226; Meal of the Day (Breakfast, Lunch, Dinner)
+
+&#8226; Time of Day (Morning, Afternoon, Evening, Night)
+
+&#8226; Merged menu prices with order records using keys such as item_id and menu_item_id.
+
+&#8226; Added features: Day Name ,  Month Name ,  Day of Week 
+
+# Data Analysis & Dashboard Creation
+&#8226; Used Power Pivot in Excel to establish relationships between tables.
+
+&#8226; Built a data model that supports pivot tables and calculated measures.
+
+&#8226; Created a dynamic sales dashboard, providing visual insights into McDonald’s sales performance, including category-wise revenue, order patterns, and top items.
+
+# Key Insights
+&#8226; Sales by Time of Day	Peak sales occur during lunch (12 PM - 2 PM) and dinner (6 PM - 8 PM).
+
+&#8226; Top Menu Item	The Meatball Marinara is the highest revenue generator.
+
+&#8226; Revenue by Category	Burgers contribute the most revenue, followed by Chicken and Fries.
+
+&#8226; Sales Trends	Weekends (especially Saturday) have the highest sales volume.
+
+&#8226; Order-Revenue Correlation	Higher order volumes consistently drive higher revenue.
+
+# Key Questions Addressed
 
 1.What is the total sales revenue for each category of menu items?
 
@@ -23,3 +66,13 @@ Questions:
 9.How does the sales performance vary by category over different months?
 
 10.Compare the sales of top 5 menu items.
+
+# Strategic Recommendations
+&#8226; Optimize Pricing: Review pricing for top-selling items and low-revenue items to improve profit margins.
+
+&#8226; Promote Low-Performing Categories: Run promotional campaigns for Shakes and Sides to boost visibility and sales.
+
+&#8226; Midweek Offers: Introduce Wednesday Specials to drive orders during this lower sales period.
+
+# Conclusion
+This project highlights the power of data-driven decision-making. By leveraging Excel's analytical capabilities, the dynamic dashboard becomes a strategic tool for monitoring McDonald’s sales performance, identifying opportunities for growth, and shaping effective marketing and operational strategies.
