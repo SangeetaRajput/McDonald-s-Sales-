@@ -3,7 +3,6 @@
 # Project Overview
 This project focuses on analyzing McDonald’s US sales data using Excel to create an interactive and dynamic dashboard. The primary goal is to explore key sales metrics, identify item popularity, understand customer preferences, and uncover time-based sales trends. The insights gained offer actionable recommendations to enhance business strategies and optimize operations.
 
-Dataset Link: Dataset
 
 # Data Cleaning Process
 &#8226; Removed duplicate records.
